@@ -1,0 +1,13 @@
+php_flag engine Off
+
+
+  #
+  # Разрешение кеширования в этой  папке
+  # Необходимо включение модулей
+  # mod_expires.c
+  #
+  # Заголовок Expires
+  <IfModule mod_expires.c>
+  ExpiresActive  On
+  ExpiresDefault "access plus 1 days"
+  </IfModule>
