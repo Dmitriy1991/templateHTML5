@@ -1,32 +1,32 @@
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta charset="Windows-1251" />
+	<meta charset="UTF-8" />
 	<!--[if lt IE 9]>
 	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<title>Заголовок документа</title>
+	<title>Р—Р°РіРѕР»РѕРІРѕРє РґРѕРєСѓРјРµРЅС‚Р°</title>
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
-	<!-- управляет режимом отображением страниц в браузерах IE8+. IE=edge - всегда использует последний доступный стандартный режим отображения независимо от <!DOCTYPE>, chrome=1 - использовать Google Chrome Frame -->
+	<!-- СѓРїСЂР°РІР»СЏРµС‚ СЂРµР¶РёРјРѕРј РѕС‚РѕР±СЂР°Р¶РµРЅРёРµРј СЃС‚СЂР°РЅРёС† РІ Р±СЂР°СѓР·РµСЂР°С… IE8+. IE=edge - РІСЃРµРіРґР° РёСЃРїРѕР»СЊР·СѓРµС‚ РїРѕСЃР»РµРґРЅРёР№ РґРѕСЃС‚СѓРїРЅС‹Р№ СЃС‚Р°РЅРґР°СЂС‚РЅС‹Р№ СЂРµР¶РёРј РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ РЅРµР·Р°РІРёСЃРёРјРѕ РѕС‚ <!DOCTYPE>, chrome=1 - РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ Google Chrome Frame -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<!-- for ie 6: Kill IE6's pop-up-on-mouseover toolbar for images that can interfere with certain designs -->
 	<meta http-equiv="imagetoolbar" content="false" />
 	<link rel="stylesheet" href="style/style.css" type="text/css" media="screen, projection" />
 	<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
-	
+
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/myScript.js"></script>
-	
+
 <!--[if IE 6]>
     <script src="js/fixscript.js"></script>
     <script src="js/fix_for_ie_lte7.js"></script>
-<![endif]-->    
+<![endif]-->
 <!--[if IE 7]>
     <script src="js/fixscript.js"></script>
     <script src="js/fix_for_ie_lte7.js"></script>
-<![endif]-->        
+<![endif]-->
 
 
 </head>
@@ -38,7 +38,7 @@
 <!--#include file="__inc_header.html"-->
 
 	<div id="content">
-	Свойство content позволяет вставлять генерируемое содержание в текст веб-страницы, которое первоначально в тексте отсутствует. Применяется совместно с псевдоэлементами :after и :before, они соответственно указывают отображать новое содержимое после или до элемента, к которому добавляются.
+	РЎРІРѕР№СЃС‚РІРѕ content РїРѕР·РІРѕР»СЏРµС‚ РІСЃС‚Р°РІР»СЏС‚СЊ РіРµРЅРµСЂРёСЂСѓРµРјРѕРµ СЃРѕРґРµСЂР¶Р°РЅРёРµ РІ С‚РµРєСЃС‚ РІРµР±-СЃС‚СЂР°РЅРёС†С‹, РєРѕС‚РѕСЂРѕРµ РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕ РІ С‚РµРєСЃС‚Рµ РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚. РџСЂРёРјРµРЅСЏРµС‚СЃСЏ СЃРѕРІРјРµСЃС‚РЅРѕ СЃ РїСЃРµРІРґРѕСЌР»РµРјРµРЅС‚Р°РјРё :after Рё :before, РѕРЅРё СЃРѕРѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕ СѓРєР°Р·С‹РІР°СЋС‚ РѕС‚РѕР±СЂР°Р¶Р°С‚СЊ РЅРѕРІРѕРµ СЃРѕРґРµСЂР¶РёРјРѕРµ РїРѕСЃР»Рµ РёР»Рё РґРѕ СЌР»РµРјРµРЅС‚Р°, Рє РєРѕС‚РѕСЂРѕРјСѓ РґРѕР±Р°РІР»СЏСЋС‚СЃСЏ.
 	</div><!-- #content-->
 
 </div><!-- #wrapper -->

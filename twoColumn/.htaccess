@@ -1,13 +1,15 @@
 #Устаналиваем кодировку по умолчанию
-AddDefaultCharset Windows-1251
+AddDefaultCharset UTF-8
 
 #Для поддержки страниц в формате shtml
+Options +Includes
 AddType text/html .shtml
 AddHandler server-parsed .shtml
 
 #Ошибка 404
 ErrorDocument 404 ./index.shtml
 
+DirectoryIndex index.shtml
 
 php_flag magic_quotes_gpc Off
 

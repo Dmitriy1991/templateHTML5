@@ -1,0 +1,42 @@
+#Устаналиваем кодировку по умолчанию
+AddDefaultCharset UTF-8
+
+#Для поддержки страниц в формате shtml
+Options +Includes
+AddType text/html .shtml
+AddHandler server-parsed .shtml
+
+#Ошибка 404
+ErrorDocument 404 ./index.shtml
+
+DirectoryIndex index.shtml
+
+php_flag magic_quotes_gpc Off
+
+php_flag display_errors on
+php_value error_reporting 2047
+
+#php_flag display_errors off
+#php_value error_reporting 0
+
+##для движка
+#
+#RewriteEngine on
+#
+#DirectoryIndex index.php
+#
+#Options +FollowSymlinks
+#
+#RewriteCond %{HTTP_HOST} ^www.v.tstevart.ru(.*)
+#RewriteRule ^(.*)$ http://v.tstevart.ru/$1 [R=301,L]
+#
+#RewriteBase /
+#
+#RewriteRule ^(scontrol)/?$ scontrol/adm.php [L]
+#
+#RewriteRule ^(data|docs)/([0-9]+)/?$  index.php?category=$1&webpage=$2 [L]
+#
+#RewriteRule ^(news)/([0-9]+)/?$  index.php?category=$1&year=$2 [L]
+#RewriteRule ^(news)/?$  index.php?category=$1 [L]
+#
+#RewriteRule ^([a-z0-9_]+)/?$  index.php?category=$1 [L]

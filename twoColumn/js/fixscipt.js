@@ -5,7 +5,7 @@
 * URL: http://www.dillerdesign.com/experiment/DD_belatedPNG/
 * Version: 0.0.8a
 * Licensed under the MIT License: http://dillerdesign.com/experiment/DD_belatedPNG/#license
-*
+* коммент
 * Example usage:
 * DD_belatedPNG.fix('.png_bg'); // argument is a CSS selector
 * DD_belatedPNG.fixPng( someNode ); // argument is an HTMLDomElement
@@ -43,9 +43,9 @@ var DD_belatedPNG = {
 			screenStyleSheet.addRule(this.ns + '\\:shape', 'position:absolute;');
 			screenStyleSheet.addRule('img.' + this.ns + '_sizeFinder', 'behavior:none; border:none; position:absolute; z-index:-1; top:-10000px; visibility:hidden;'); /* large negative top value for avoiding vertical scrollbars for large images, suggested by James O'Brien, http://www.thanatopsic.org/hendrik/ */
 			this.screenStyleSheet = screenStyleSheet;
-			
+
 			/* Add a print-media stylesheet, for preventing VML artifacts from showing up in print (including preview). */
-			/* Thanks to R�mi Pr�vost for automating this! */
+			/* Thanks to Rйmi Prйvost for automating this! */
 			printStyleSheet = document.createElement('style');
 			printStyleSheet.setAttribute('media', 'print');
 			document.documentElement.firstChild.insertBefore(printStyleSheet, document.documentElement.firstChild.firstChild);
@@ -116,7 +116,7 @@ var DD_belatedPNG = {
 		handlers = {resize: 'vmlOffsets', move: 'vmlOffsets'};
 		if (el.nodeName == 'A') {
 			moreForAs = {mouseleave: 'handlePseudoHover', mouseenter: 'handlePseudoHover', focus: 'handlePseudoHover', blur: 'handlePseudoHover'};
-			for (a in moreForAs) {			
+			for (a in moreForAs) {
 				if (moreForAs.hasOwnProperty(a)) {
 					handlers[a] = moreForAs[a];
 				}
