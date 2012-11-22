@@ -1,0 +1,68 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8" />
+	<!--[if lt IE 9]>
+		<script src="js/libraries/html5.js"></script>
+	<![endif]-->
+	<title>Заголовок документа</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<!-- управляет режимом отображением страниц в браузерах IE8+. IE=edge - всегда использует последний доступный стандартный режим отображения независимо от <!DOCTYPE>, chrome=1 - использовать Google Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<!-- for ie 6: Kill IE6's pop-up-on-mouseover toolbar for images that can interfere with certain designs -->
+	<meta http-equiv="imagetoolbar" content="false" />
+	<link rel="stylesheet" href="style/project/style.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="style/bootstrap/bootstrap.min.css" media="screen">
+	<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+
+	<script src="js/libraries/jquery.min.js"></script>
+	<script src="js/bootstrap/bootstrap.min.js"></script>
+	<script src="js/project/myScript.js"></script>
+
+	<!--[if IE 6]>
+		<script src="js/libraries/fixscript.js"></script>
+		<script src="js/libraries/fix_for_ie_lte7.js"></script>
+	<![endif]-->
+	<!--[if IE 7]>
+		<script src="js/libraries/fixscript.js"></script>
+		<script src="js/libraries/fix_for_ie_lte7.js"></script>
+	<![endif]-->
+
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+	<header id="header">
+		Выравнивание по центру делается через свойство text-align, добавляемое к родителю тега, а сдвиг вниз через свойство top. Чтобы это свойство сработало, необходимо для картинки задать относительное позиционирование с помощью свойства position со значением relative. На главной странице сайта картинка с названием выводится как обычно, на остальных страницах она служит ссылкой на главную страницу. Для этого достаточно слегка изменить код:
+	</header><!-- #header-->
+
+	<section id="middle">
+
+		<div id="container">
+			<div id="content">
+				<strong>Content:</strong> Sed placerat accumsan ligula. Aliquam felis magna, congue quis, tempus eu, aliquam vitae, ante. Cras neque justo, ultrices at, rhoncus a, facilisis eget, nisl. Quisque vitae pede. Nam et augue. Sed a elit. Ut vel massa. Suspendisse nibh pede, ultrices vitae, ultrices nec, mollis non, nibh. In sit amet pede quis leo vulputate hendrerit. Cras laoreet leo et justo auctor condimentum. Integer id enim. Suspendisse egestas, dui ac egestas mollis, libero orci hendrerit lacus, et malesuada lorem neque ac libero. Morbi tempor pulvinar pede. Donec vel elit.
+			</div><!-- #content-->
+		</div><!-- #container-->
+
+		<aside id="sideLeft">
+			<strong>Левый сайд бар:</strong> Свойство content позволяет вставлять генерируемое содержание в текст веб-страницы, которое первоначально в тексте отсутствует. Применяется совместно с псевдоэлементами :after и :before, они соответственно указывают отображать новое содержимое после или до элемента, к которому добавляются.
+		</aside><!-- #sideLeft -->
+
+		<aside id="sideRight">
+			<strong>Правый сайт бар:</strong> Свойство content позволяет вставлять генерируемое содержание в текст веб-страницы, которое первоначально в тексте отсутствует. Применяется совместно с псевдоэлементами :after и :before, они соответственно указывают отображать новое содержимое после или до элемента, к которому добавляются.
+		</aside><!-- #sideRight -->
+
+	</section><!-- #middle-->
+
+</div><!-- #wrapper -->
+
+<footer id="footer">
+	Тег <i>footer</i> задаёт «подвал» сайта или раздела, в нём может располагается имя автора, дата документа, контактная и правовая информация.
+</footer><!-- #footer -->
+
+</body>
+</html>
